@@ -71,25 +71,32 @@ section.normal{
 }
 
 /*Configuraçoes dentro das seçoes com as classes definidas como imagem. */
-section.imagem{
+section.imagem {
     background-color: rgb(80, 80, 80);
     color: white;
+    box-shadow: 15px 15px 20px 2px rgba(0, 0, 0, 0.432);
+    background-attachment: fixed;
 }
 
 /*Esse comando coloca um quadro de uma cor diferente ao paragrafo que esta dentro da div*/
 section.imagem > p {
     display: inline-block;
     padding: 10px;
-    background-color: rgba(0, 0, 0, 0.308);
+    background-color: rgba(0, 0, 0, 0.555);
     border-radius: 10px;
+    text-shadow: 1px 1px 0px black;
 }
 
 section#img01 {
     background-image: url('../imagens/background01.jpg');
+    background-position: center left;
+    background-size: cover;
 }
 
 section#img02 {
     background-image: url('../imagens/background02.jpg');
+    background-position: center left;
+    background-size: cover;
 }
 
 /* Configuraçoes do rodapé do site*/
