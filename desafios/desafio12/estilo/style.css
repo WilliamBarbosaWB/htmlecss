@@ -61,6 +61,10 @@ section {
     font-size: 3.8vw;
 }
 
+section > p {
+    padding-bottom: 2em;
+}
+
 section.normal{
     background-color: white;
     color: black;
@@ -75,8 +79,17 @@ section.imagem{
 /*Esse comando coloca um quadro de uma cor diferente ao paragrafo que esta dentro da div*/
 section.imagem > p {
     display: inline-block;
-    padding: 5px;
+    padding: 10px;
     background-color: rgba(0, 0, 0, 0.308);
+    border-radius: 10px;
+}
+
+section#img01 {
+    background-image: url('../imagens/background01.jpg');
+}
+
+section#img02 {
+    background-image: url('../imagens/background02.jpg');
 }
 
 /* Configuraçoes do rodapé do site*/
