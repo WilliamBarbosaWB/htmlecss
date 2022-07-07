@@ -1,1 +1,71 @@
 @charset "UTF-8";
+
+/* Essa configuração meche com todos os elementos de maneira geral*/
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+html , body {
+    min-height: 100vh; /* Essa opçao configura o tamanho minimo da view port. da pagina*/
+    background-color: rgba(169, 169, 169, 0.575);
+}
+
+header {
+    background-color: black;
+    text-align: center;
+    color: white;
+}
+
+header > h1 {
+     padding-top: 50px;
+     font-variant: small-caps;
+}
+
+header > p {
+    padding-bottom: 50px;
+}
+
+header a , footer a {
+    color: white;
+    text-decoration: none;
+    font-weight: bolder;
+}
+
+header a:hover, footer a:hover{
+    text-decoration: underline;
+}
+
+section {
+    padding-top: 10vh;
+    padding-bottom: 10vh;
+    line-height: 2em;
+    padding-left: 30px;
+}
+
+section.normal{
+    background-color: white;
+    color: black;
+}
+
+/*Configuraçoes dentro das seçoes com as classes definidas como imagem. */
+section.imagem{
+    background-color: rgb(80, 80, 80);
+    color: white;
+}
+
+/*Esse comando coloca um quadro de uma cor diferente ao paragrafo que esta dentro da div*/
+section.imagem > p {
+    width: 400px;
+    background-color: rgba(0, 0, 0, 0.308);
+}
+
+/* Configuraçoes do rodapé do site*/
+footer {
+    background-color: black;
+    padding: 10px;
+    color: white;
+    text-align: center;
+}
+
+
