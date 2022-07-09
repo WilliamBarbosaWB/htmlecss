@@ -48,8 +48,8 @@
         <caption>Populaçao por Estado</caption>
         <thead>
             <tr>
-                <td>Estado</td>
-                <td>População</td>
+                <td scope="col">Estado</td> <!--o atributo scope é para determinar em que direçao esta o conteudo de determinada tag, no das tabelas-->
+                <td scope="col">População</td>
             </tr>
         </thead>
         <tbody>
@@ -165,7 +165,7 @@
         </tbody>
         <tfoot>
             <tr>
-                <th>Total de Habitantes</th>
+                <th scope="row">Total de Habitantes</th> <!--o scope row, esta dizendo que o conteudo da tag th nesse caso está na mesma linha-->
                 <td class="num"><strong>210.147.125</strong></td>
             </tr>
         </tfoot>
